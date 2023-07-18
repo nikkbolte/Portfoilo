@@ -1,0 +1,127 @@
+div h2 {
+    font-family: 'Smooch', cursive;
+    color: #40513B;
+    font-size: 5rem;
+
+}
+div h3{
+    transition: 1s;
+    color: #5f8254;
+    font-size: 3rem;
+    font-family: 'Libre Caslon Text', serif;
+
+}
+.slide-enter {
+    transform: translateX(-100%);
+  }
+  
+  .slide-enter-active {
+    transform: translateX(0%);
+    transition:  500ms;
+  }
+  
+  .slide-exit {
+    transform: translateX(0%);
+  }
+  
+  .slide-exit-active {
+    transform: translateX(-100%);
+    transition: 500ms;
+  }
+  
+.firstSection {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.firstSection div {
+    width: 45%;
+
+
+}
+
+.leftSection {
+    margin-top: 15%;
+    text-align: left;
+    font-size: 2.5rem;
+    margin-left: 10%;
+
+
+}
+.rightSection img {
+    height: 100vh;
+    float: right;
+
+}
+.Green {
+    color: #557153;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 7px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: greenyellow;
+}
+
+.fa-github {
+    background: #fff;
+    color: rgb(8, 2, 2);
+}
+
+.fa-linkedin {
+    background: #fff;
+    color: rgb(7, 1, 1);
+}
+
+.fa-envelope {
+    background: #fff;
+    color: black;
+}
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+    margin-bottom: 5rem;
+
+}
+
+.secondSection div img {
+    height: auto;
+    margin:auto;
+    padding: 0;
+}
+
+.secondSection h3 {
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 1.5rem;
+}
+.secondSection h2 {
+    color: #557153;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.secondSection p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.secondSection div ul li {
+    font-family: 'Quicksand', sans-serif;
+}
+.secondSection .text {
+    font-family: 'Smooch', cursive;
+    font-size: 4.5rem;
+}

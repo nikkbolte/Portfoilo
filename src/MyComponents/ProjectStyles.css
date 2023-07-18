@@ -1,0 +1,52 @@
+
+   .text-center{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    font-family: 'Smooch', cursive;
+    color: #40513B;
+    font-size: 5rem;
+   }
+   .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    grid-gap: 70px;
+    max-width: 1300px;
+    margin: 10px auto;
+    padding-bottom: 5rem;
+  }
+  
+  .card {
+    background-color: aliceblue;
+    padding: 1.2rem 1rem;
+  }
+  .card:hover{
+    position: relative;
+    color: rgb(199, 247, 203);
+    text-decoration: none;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  .card-title {
+    color: #40513B;
+    padding: 1rem 0;
+  }
+  
+  .card-text {
+    padding-bottom: 2rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+   @media screen and (max-width : 740px){
+    .card{
+        max-width: 90%;
+        margin: auto;
+
+        grid-template-columns: 1fr;
+    }
+    
+   }

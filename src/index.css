@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Caslon Text', serif;
+}
+h1,h4,h3,p,a{
+  text-decoration: none;
+}
+.hamburger{
+  display: none;
+}
+hr {
+  border: 0;
+  background: dimgray;
+  height: 1.2px;
+  margin: 40px 84px;
+}
